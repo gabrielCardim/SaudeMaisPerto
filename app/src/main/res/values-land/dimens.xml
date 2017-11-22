@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="app_bar_height">255dp</dimen>
+    <dimen name="detalhes_mapa">182dp</dimen>
+</resources>

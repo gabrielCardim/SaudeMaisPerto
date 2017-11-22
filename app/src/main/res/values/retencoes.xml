@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="retencoes">
+        <item>Qualquer um</item>
+        <item>Unidade Pessoa Física</item>
+        <item>Unidade Filantrópica</item>
+        <item>Unidade sem fins lucrativos</item>
+        <item>Unidade Privada Lucrativa</item>
+        <item>Unidade Sindical</item>
+        <item>Unidade Pública</item>
+        <item>Unidade Privada Lucrativa</item>
+    </string-array>
+</resources>

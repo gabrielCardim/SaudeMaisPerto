@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             xmlns:tools="http://schemas.android.com/tools">
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/mapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <FrameLayout
+        android:id="@+id/mapa_wrapper"
+        android:background="@color/preto_transparente"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/mapa_texto"
+            android:visibility="gone"
+            tools:visibility="visible"
+            style="@style/TextAppearance.AppCompat.Caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:textAlignment="center"
+            android:textColor="@color/branco"
+            android:textSize="15sp"
+            android:text="Aperte no mapa para alterar o raio de busca"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+        <ProgressBar
+            android:id="@+id/mapa_progressbar"
+            android:indeterminateTint="@color/branco"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </FrameLayout>
+
+</FrameLayout>

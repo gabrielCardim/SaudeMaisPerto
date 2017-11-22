@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.gabri.saudeperto">
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Saúde mais perto"
+        android:supportsRtl="true"
+        android:theme="@style/Base">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBEji60KxxI1tZOFU40tjq6B1pr709nzqI"/>
+
+        <activity
+            android:name=".atividades.LauncherActivity"
+            android:theme="@android:style/Theme.NoDisplay">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:configChanges="orientation|screenSize"
+            android:launchMode="singleTop"
+            android:name=".atividades.MainActivity"
+            android:theme="@style/NoActionBar"/>
+        <activity
+            android:name=".atividades.LoginActivity"
+            android:theme="@style/WhiteStatusBar"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity
+            android:name=".atividades.CadastroActivity"
+            android:label="Registrar"
+            android:parentActivityName=".atividades.LoginActivity"/>
+        <activity
+            android:name=".atividades.DetalhesActivity"
+            android:label="Detalhes"
+            android:parentActivityName=".atividades.MainActivity"
+            android:theme="@style/TransparentStatusBar"/>
+        <activity
+            android:name=".atividades.BuscarActivity"
+            android:label="Buscar"
+            android:parentActivityName=".atividades.MainActivity"
+            android:theme="@style/CloseButtonAsUpIndicator"/>
+        <activity
+            android:name=".atividades.ResultadosActivity"
+            android:label="Resultados da Busca"
+            android:parentActivityName=".atividades.BuscarActivity">
+        </activity>
+    </application>
+
+</manifest>

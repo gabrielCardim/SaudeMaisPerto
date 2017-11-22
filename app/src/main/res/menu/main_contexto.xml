@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/context_add_favoritos"
+          android:title="Adicionar aos favoritos" />
+
+    <item android:id="@+id/context_abrir_gmaps"
+          android:title="Abrir no Google Maps" />
+
+    <item android:id="@+id/context_compartilhar"
+          android:title="Compartilhar" />
+
+</menu>

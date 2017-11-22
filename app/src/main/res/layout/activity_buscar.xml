@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.gabri.saudeperto.atividades.BuscarActivity">
+
+    <LinearLayout
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:padding="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:showDividers="middle"
+        android:divider="@drawable/separador_buscar"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nome"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <EditText
+                style="@style/Base.V7.Widget.AppCompat.EditText"
+                android:id="@+id/buscar_nome"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cidade"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <EditText
+                style="@style/Base.V7.Widget.AppCompat.EditText"
+                android:id="@+id/buscar_cidade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Estado"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/buscar_estado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Categoria"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/buscar_categoria"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Vínculo com o SUS"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/buscar_sus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:textColor="@color/cinza_3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Retenção"
+                android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
+            <Spinner
+                style="@style/Base.Widget.AppCompat.Spinner.Underlined"
+                android:id="@+id/buscar_retencao"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

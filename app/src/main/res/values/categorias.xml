@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias">
+        <item>Qualquer um</item>
+        <item>Hospital</item>
+        <item>Posto de saúde</item>
+        <item>Urgência</item>
+        <item>Samu</item>
+        <item>Farmácia</item>
+        <item>Clínica</item>
+        <item>Consultório</item>
+        <item>Laboratório</item>
+        <item>Apoio à saúde</item>
+        <item>Atenção específica</item>
+        <item>Unidade administrativa</item>
+        <item>Atendimento domiciliar</item>
+    </string-array>
+</resources>

@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "336333231204",
+    "firebase_url": "https://app-civico.firebaseio.com",
+    "project_id": "app-civico",
+    "storage_bucket": "app-civico.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:336333231204:android:b1b60e54e4568fc6",
+        "android_client_info": {
+          "package_name": "com.example.gabri.saudeperto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "336333231204-n2jfhbkk72k817fvhufkblonu2rfot8b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAVifZMYsPeN2MRvpJOINPpTMDUT-sLUjM"
+        },
+        {
+          "current_key": "AIzaSyAIG4vPwkABo0SZVzUoEwPtsEH0ImsPJKE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

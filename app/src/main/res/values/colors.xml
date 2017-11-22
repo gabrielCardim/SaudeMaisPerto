@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="azul_mais_escuro">#B22222</color>
+    <color name="azul_escuro">#FA8072</color>
+    <color name="azul_claro">#FFA07A</color>
+    <color name="azul_claro_transparente">#32658dff</color>
+    <color name="roxo">#8B3626</color>
+    <color name="amarelo">#FFA352</color>
+    <color name="branco">#fcfcfc</color>
+    <color name="cinza_1">#f4f4f4</color>
+    <color name="cinza_2">#ebeef2</color>
+    <color name="cinza_3">#B2B2B2</color>
+    <color name="cinza_4">#a0a0a0</color>
+    <color name="cinza_escuro">#434343</color>
+    <color name="preto_transparente">#8c000000</color>
+</resources>
